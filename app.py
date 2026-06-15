@@ -144,7 +144,7 @@ else:
             }
             df_report = pd.DataFrame(report_data)
             st.dataframe(df_report.set_index('Kelas Sentimen'), use_container_width=True)
-            st.caption("💡 *Insight:* Model memiliki kemampuan yang sangat baik dalam mengenali tweet **Positif** dengan nilai Recall mencapai **0.74 (74%)**.")
+            st.caption("💡 *Insight:* Model ini memiliki kemampuan yang sangat baik dalam mengenali tweet **Positif** dengan nilai Recall mencapai **0.74 (74%)**.")
             
         with perf_plot2:
             st.markdown("##### **Matriks Kebingungan (Confusion Matrix)**")
